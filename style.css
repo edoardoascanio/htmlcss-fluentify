@@ -170,6 +170,25 @@ aside:first-child, aside:last-child, article{
     margin-top: 10%;
 }
 
+.main-bottom .left-side, .main-bottom .right-side{
+    float: left;
+    width: 50%;
+    height: 500px;
+}
 
+.main-bottom .left-side{
+    background-image: url(img/mountain.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
+.main-bottom .right-side{
+    padding: 5% 0 0 5%;
+}
 
+.main-bottom p {
+    font-size: 20px;
+    margin:5% 0 5% 0;
+    color: slategrey;
+}
