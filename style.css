@@ -13,7 +13,7 @@
 .center-container{
     margin: auto;
     width: 80%;
-    height: 1200px;
+    height: 500px;
 }
 
 header{
@@ -122,10 +122,52 @@ nav li{
 
 aside:first-child, aside:last-child, article{
     float: left;
-    margin: 1%;
+    margin:5% 1% 5% 1%;
     width: calc(33.3% - 2%);
-    height: 500px;
-    background-color: teal;
+}
+
+.main-top div{
+    margin: auto;
+    width: 70%;
+    height: 150px;
+    margin-bottom: 5%;
+}
+
+#img-1{
+    background-image: url(img/profile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img-2{
+    background-image: url(img/computer.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img-3{
+    background-image: url(img/doc.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-top h5{
+    font-size: 20px;
+    color: yellowgreen;
+    text-align: center;
+    margin: 10% 0 10% 0
+}
+
+.main-top hr{
+    margin: auto;
+    width: 30%;
+}
+
+.main-top p{
+    font-size: 16px;
+    color: slategrey;
+    text-align: center;
+    margin-top: 10%;
 }
 
 
