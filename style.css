@@ -64,18 +64,37 @@ nav li{
 .button-container button{
     vertical-align: middle;
     width: calc (30% - 15px);
-    height: 20px;
-    padding: 15px;
-    line-height: 1px;
-    border-radius: 5px;
-
 }
 
 #login{
     border: 1px solid white;
    background-color: transparent;
+   height: 20px;
+   padding: 15px;
+   line-height: 1px;
+   border-radius: 5px;
 }
 
 .button-green{
     background-color: yellowgreen;
+    height: 20px;
+    padding: 15px;
+    line-height: 1px;
+    border-radius: 5px;
+}
+
+.title{
+    margin-top: 20%;
+    width: 50%;
+}
+
+.title h1{
+    font-size: 40px;
+    color: white;
+}
+
+.title button{
+    color: white;
+    margin-top: 20px;
+    padding: 25px 10px 25px 10px;
 }
