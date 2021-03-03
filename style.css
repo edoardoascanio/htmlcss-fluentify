@@ -192,3 +192,26 @@ aside:first-child, aside:last-child, article{
     margin:5% 0 5% 0;
     color: slategrey;
 }
+
+.banner .left-side, .banner .right-side{
+    float: left;
+    width: 35%;
+    margin: 5% 5% 5% 10%;
+}
+
+footer h1{
+    font-size: 20px;
+}
+
+footer p, footer select, footer button{
+    margin-left: 5%;
+}
+
+footer select{
+    color: slategrey;
+    background-color: transparent;
+}
+
+footer button{
+    color: white;
+}
