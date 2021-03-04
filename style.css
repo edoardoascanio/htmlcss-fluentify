@@ -13,7 +13,6 @@
 .center-container{
     margin: auto;
     width: 80%;
-    height: 500px;
 }
 
 header{
@@ -40,7 +39,7 @@ nav{
     background-repeat: no-repeat;
 }
 
-nav li{
+nav li {
     float: left;
     display: inline-block;
     font-size: 10px;
@@ -126,6 +125,10 @@ aside:first-child, aside:last-child, article{
     width: calc(33.3% - 2%);
 }
 
+.main-top{
+    height: 500px;
+}
+
 .main-top div{
     margin: auto;
     width: 70%;
@@ -170,13 +173,17 @@ aside:first-child, aside:last-child, article{
     margin-top: 10%;
 }
 
-.main-bottom .left-side, .main-bottom .right-side{
-    float: left;
-    width: 50%;
+.main-bottom{
     height: 500px;
 }
 
+.main-bottom .left-side, .main-bottom .right-side{
+    float: left;
+    width: 50%;
+}
+
 .main-bottom .left-side{
+    height: 500px;
     background-image: url(img/mountain.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -193,25 +200,39 @@ aside:first-child, aside:last-child, article{
     color: slategrey;
 }
 
-.banner .left-side, .banner .right-side{
+footer .left-side{
     float: left;
-    width: 35%;
-    margin: 5% 5% 5% 10%;
+    width: 30%;    
+    margin:5% 5% 5% 0;
 }
 
-footer h1{
-    font-size: 20px;
+footer .right-side{
+    float: right;
+    width: 50%;    
+    margin-top: 5%;
 }
 
-footer p, footer select, footer button{
-    margin-left: 5%;
+.right-side span{
+    color: slategrey;
+    line-height: 40px;  
+    margin-left: 20%;  
 }
 
 footer select{
     color: slategrey;
     background-color: transparent;
+    position: absolute;
+    right: 30%;
+    top: 50%;
 }
 
 footer button{
+    float: right;
     color: white;
+}
+
+.help{
+    position: absolute;
+    right: 15%;
+    bottom: 1%;
 }
