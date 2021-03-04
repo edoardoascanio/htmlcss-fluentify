@@ -215,11 +215,14 @@ footer .right-side{
 .right-side span{
     color: slategrey;
     line-height: 40px;  
-    margin-left: 20%;  
+    margin-left: 10%;  
 }
 
 footer select{
+    width: 10%;
     color: slategrey;
+    border: none;
+    border-bottom: 1px solid slategrey;
     background-color: transparent;
     position: absolute;
     right: 30%;
